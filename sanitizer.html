@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Buy Sanitizer</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <style>
+        div {
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+        
+        .f {
+            width: 300px;
+            border: 15px solid chocolate;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./sani.jpg">
+    <div>
+        <h2>***Product Description***</h2>
+        <h3>Hand sanitizer, also called hand antiseptic, handrub, or hand rub, agent applied to the hands for the purpose of removing common pathogens (disease-causing organisms). Hand sanitizers typically come in foam, gel, or liquid form.</h3>
+        <ul>
+            <li>Price: 150 Rs.</li>
+        </ul>
+    </div>
+    <div class="f">
+        <form id="fo">
+            <h2>Place Oreder</h2>
+
+            <input type="text" placeholder="Enter product name" name="product"><br><br>
+            <input type="text" placeholder="Enter Name" name="name"><br><br>
+            <input placeholder="Enter your address" type="text" name="address"><br><br>
+            <input type="tel" placeholder="Enter Phone number" name="phno"><br><br>
+            <button type="submit">Place Order</button>
+            <button type="reset">Cancle Order</button>
+
+        </form>
+    </div>
+    <a href="index.html"><button>Back</button> </a>
+    <script src="./product.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Buy Hand-wash</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <style>
+        div {
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+        
+        .f {
+            width: 300px;
+            border: 15px solid rebeccapurple;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./handwash.jpg"><br><br><br>
+    <div>
+        <h2>***Product Description***</h2>
+        <h3>Dettol Original Liquid Hand Wash kills 99.9% of germs. Using it every day protects hands from germs and helps keep them hygienically clean. The pH-balanced formula along with Dettol's trusted germ protection helps your skin feeling healthy and
+            fresh.
+        </h3>
+        <h2>***Product Feature***</h2>
+        <ul>
+            <li>Kills 99.9% of germs including E.coli and flu virus</li>
+            <li> pH-balanced liquid hand wash</li>
+            <li>Original Pine Fragrance Hand Wash
+                <li> Anti-Bacterial</li>
+                <li> Recommended by Doctors</li>
+                <li>Price : 50Rs</li>
+        </ul>
+    </div>
+    <div class="f">
+        <form id="fo">
+            <h2>Place Order</h2>
+
+            <input type="text" placeholder="Enter product name" name="product"><br><br>
+            <input type="text" placeholder="Enter Name" name="name"><br><br>
+            <input placeholder="Enter your address" type="text" name="address"><br><br>
+            <input type="tel" placeholder="Enter Phone number" name="phno"><br><br>
+            <button type="submit">Place order</button>
+            <button type="reset">Cancle order</button>
+        </form>
+    </div>
+    <script src="./product.js"></script>
+    <a href="./index.html"><button>Back</button></a>
+</body>
+
+
+</html>
